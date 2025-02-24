@@ -7,6 +7,7 @@ Kai Hale,
 Andrew Misco:),
 Sofia Stahle,
 Ava Baskin,
+Katelyn Lin.
 
 
 
