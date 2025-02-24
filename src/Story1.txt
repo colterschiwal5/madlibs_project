@@ -1,1 +1,16 @@
-
+words = [ noun1, name1, name2, name3, onemotepia1, adverb1, name3, verb1, adjective1, verb2, verb3, adjective2, number1, adverb2, verb4] 
+print(f"Once upon a time there was a little (noun1) named (name1).")
+print(f"(name1) was very very strong.")
+print(f"One day (name1) went to the gym to keep building up their massive muscles.")
+print(f"At the gym (name1) met his friend (name2).")
+print(f"When greeting each other, they went to dab each other up. This hand shake made  such a loud (onemotepia1) noise that the building shook.")
+print(f"This made the two friends so excited that they jumped (adverb1).")
+print(f"This made (name3) ,(name1)'s nemisis, angry so they decided to (verb1)")
+print(f"(name3) came up and said to (name1) and (name2), 'You are so (adjective1)!'")
+print(f"This made (name1) (verb1) and (name2) (verb3).")
+print(f"(name1) and (name2) were tired of being bullied by (name3) so they decided to hatch a (adjective2) plan.")
+print(f"The two friends spent (number1) hours plotting and preparing to carry out said plan.")
+print(f"Finally the day they planned to execute the plan came and the friends were pacing (adverb2).")
+print(f"(name3) saw the two friends so he came up to them in order to continue his evil treatment.")
+print(f"As he stepped up to the friends, the ball in front of him (verb4) up and hit him in the nose.")
+print(f"Finally (name1) and (name2) won!")
