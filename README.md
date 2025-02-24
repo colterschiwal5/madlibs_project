@@ -2,5 +2,5 @@
 A mad libs project for school
 
 # contributers
-colter schiwal
-Kai Hale
+colter schiwal,
+Kai Hale,
