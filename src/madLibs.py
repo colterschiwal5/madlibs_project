@@ -1,11 +1,24 @@
+def is_valid_word(word):
+    return len(word) > 1 and word.isalpha()
+
+def is_valid_number(num):
+    try:
+        float(num)  # This will work for both integers and floats
+        return True
+    except ValueError:
+        return False
 playing = True
 print("Welcome to Mad Libs!")
 while playing == True:
     choice = input("What story do you want? a, b, c, or d. You can also press q to quit.")
     if choice == 'a':
-        storyA = [input("adjective: "),input("noun: "),input("verb: "),input("full name: "),input("verb: "),
-        input("adjective: "),input("noun (plural): "),input("verb: "),input("day of week: "),input("animal (plural): "),
-        input("sport: "),input("school subject: "),input("adjective: "),input("material: "),input("adjective: "),]
+        storyA = []
+        for prompt in ["adjective", "noun", "verb", "full name", "verb", "adjective", "noun (plural)", "verb", "day of week", "animal (plural)", "sport", "school subject", "adjective", "material", "adjective"]:
+            user_input = input(f"{prompt}: ")
+            while not is_valid_word(user_input):
+                print("Invalid input. Please enter a word with more than one letter.")
+                user_input = input(f"{prompt}: ")
+            storyA.append(user_input)
         print(f"Welcome to {storyA[0]} {storyA[1]} college")
         print(f"Let me show you around our {storyA[2]} campus")
         print(f"Here is the {storyA[3]} library where students go to {storyA[4]}")
@@ -34,9 +47,18 @@ while playing == True:
         print(f"As he stepped up to the friends, the ball in front of him {storyB[11]} up and hit him in the nose.")
         print(f"Finally {storyB[0]} and {storyB[1]} won!")
     elif choice == 'c':
-        storyC = [input("noun: "),input("name: "),input("name: "),input("name: "),input("onomatopoeia: "),
-        input("adverb: "),input("verb: "),input("adjective: "),input("verb: "),input("verb: "),
-        input("adjective: "),input("number: "),input("adverb: "),input("verb: "),input("number: "),]
+        storyB = []
+        for prompt in ["name", "name", "adverb", "name", "verb", "adjective", "verb", "verb", "adjective", "number", "adverb", "verb", "adjective", "noun", "onemotepia"]:
+            user_input = input(f"{prompt}: ")
+            if prompt == "number":
+                while not is_valid_number(user_input):
+                    print("Invalid input. Please enter a valid number.")
+                    user_input = input(f"{prompt}: ")
+            else:
+                while not is_valid_word(user_input):
+                    print("Invalid input. Please enter a word with more than one letter.")
+                    user_input = input(f"{prompt}: ")
+            storyB.append(user_input)
         print(f"Amid the dense, untamed wilderness, a determined {storyC[0]} named {storyC[1]} embarked on an extraordinary journey.")
         print(f"{storyC[1]} had spent {storyC[14]} years chasing legends, but this time, the fabled treasure of Eldoria seemed within reach.")
         print(f"With a map in hand and a heart full of ambition, {storyC[1]} ventured deeper into the jungle's shadowy expanse.")
@@ -51,9 +73,18 @@ while playing == True:
         print(f"Just as {storyC[3]} reached for the treasure, the ground beneath him {storyC[13]}, sending him plunging into an ancient trap.")
         print(f"With victory secured, {storyC[1]} and {storyC[2]} claimed the long-lost relic, proving that wit and resilience triumph over greed.")
     elif choice == 'd':
-        storyD = [input("adjective: "),input("noun: "),input("number: "),input("noun: "),input("noun: "),
-        input("adjective: "),input("noun: "),input("number: "),input("noun: "),input("verb: "),
-        input("adjective: "),input("number: "),input("adjective: "),input("number: "),input("color: "),]
+        storyD = []
+        for prompt in ["adjective", "noun", "number", "noun", "noun", "adjective", "noun", "number", "noun", "verb", "adjective", "number", "adjective", "number", "color"]:
+            user_input = input(f"{prompt}: ")
+            if prompt == "number":
+                while not is_valid_number(user_input):
+                    print("Invalid input. Please enter a valid number.")
+                    user_input = input(f"{prompt}: ")
+            else:
+                while not is_valid_word(user_input):
+                    print("Invalid input. Please enter a word with more than one letter.")
+                    user_input = input(f"{prompt}: ")
+            storyD.append(user_input)
         print(f"How to cook the most {storyD[0]} {storyD[1]}")
         print(f"First gather your ingredients. You will need {storyD[2]} cups of {storyD[3]}")
         print(f"You will aslo need a pinch of {storyD[4]}, 3 cups of {storyD[5]} {storyD[6]}, and {storyD[7]} teaspoons of {storyD[8]}")
