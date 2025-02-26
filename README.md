@@ -1,4 +1,4 @@
-# madlibs_project
+# Madlibs_project
 A mad libs project for school
 
 # Contributers
