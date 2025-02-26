@@ -4,12 +4,12 @@ A mad libs project for school
 https://github.com/colterschiwal5/madlibs_project/blob/main/src/madLibs.py
 
 # Contributers
-Colter Schiwal, 
-Kai Hale, 
-Andrew Misco:), 
-Sofia Stahle, 
-Ava Baskin, 
-Katelyn Lin.
+- Colter Schiwal
+- Kai Hale
+- Andrew Misco:)
+- Sofia Stahle
+- Ava Baskin
+- Katelyn Lin
 
 # Approach
 - We used a list for the words in each story 
