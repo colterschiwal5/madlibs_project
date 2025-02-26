@@ -1,7 +1,7 @@
 # madlibs_project
 A mad libs project for school
 
-# contributers
+# Contributers
 Colter Schiwal, 
 Kai Hale, 
 Andrew Misco:), 
@@ -17,7 +17,7 @@ Katelyn Lin.
 # Challenges
 One challenge we faced was how to only ask the user for input for the story that they choose. We solved this by creating the lists for each story inside it's elif statement
 
-# features
+# Features
 - User can choose what story to play
 - User can stay in the app to play again and exit when they want
 - Variety of stories
