@@ -2,7 +2,7 @@
 A mad libs project for school
 
 # contributers
-colter schiwal, 
+Colter Schiwal, 
 Kai Hale, 
 Andrew Misco:), 
 Sofia Stahle, 
