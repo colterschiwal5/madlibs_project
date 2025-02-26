@@ -1,6 +1,8 @@
 # Madlibs project
 A mad libs project for school
 
+https://github.com/colterschiwal5/madlibs_project/blob/main/src/madLibs.py
+
 # Contributers
 Colter Schiwal, 
 Kai Hale, 
