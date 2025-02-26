@@ -1,5 +1,5 @@
 def is_valid_word(word):
-    return len(word) > 1 and word.isalpha()
+    return len(word.strip()) > 1 and all(c.isalpha() or c.isspace() for c in word.strip())
 
 def is_valid_number(num):
     try:
@@ -28,13 +28,22 @@ while playing == True:
         print(f"Lastly here is our {storyA[11]} building made of {storyA[12]} {storyA[13]}")
         print(f"I hope you choose to come to our {storyA[14]} school!")
     elif choice == 'b':
-        storyB = [input("name: "),input("name: "),input("adverb: "),input("name: "),input("verb: "),
-        input("adjective: "),input("verb: "),input("verb: "),input("adjective: "),input("number: "),
-        input("adverb: "),input("verb: "),input("adjective: "),input("noun: "),input("onemotepia: "),]
+        storyB = []
+        for prompt in ["name", "name", "adverb", "name", "verb", "adjective", "verb", "verb", "adjective", "number", "adverb", "verb", "adjective", "noun", "onemotepia"]:
+            user_input = input(f"{prompt}: ")
+            if prompt == "number":
+                while not is_valid_number(user_input):
+                    print("Invalid input. Please enter a valid number.")
+                    user_input = input(f"{prompt}: ")
+            else:
+                while not is_valid_word(user_input):
+                    print("Invalid input. Please enter a word or phrase with more than one character.")
+                    user_input = input(f"{prompt}: ")
+            storyB.append(user_input)
         print(f"Once upon a time there was a little {storyB[13]} named {storyB[0]}.")
         print(f"{storyB[0]} was very very strong.")
         print(f"One day {storyB[0]} went to the gym to keep building up their {storyB[12]} muscles.")
-        print(f"At the gym {storyB[0]} met his friend {storyB[1]}.")
+        print(f"At the gym {storyB[0]} met their friend {storyB[1]}.")
         print(f"When greeting each other, they went to dab each other up. This hand shake made such a loud {storyB[14]} noise that the building shook.")
         print(f"This made the two friends so excited that they jumped {storyB[2]}.")
         print(f"This made {storyB[3]} ,{storyB[0]}'s nemisis, angry so they decided to {storyB[4]}")
@@ -48,7 +57,7 @@ while playing == True:
         print(f"Finally {storyB[0]} and {storyB[1]} won!")
     elif choice == 'c':
         storyB = []
-        for prompt in ["name", "name", "adverb", "name", "verb", "adjective", "verb", "verb", "adjective", "number", "adverb", "verb", "adjective", "noun", "onemotepia"]:
+        for prompt in ["name", "name", "adverb", "name", "verb", "adjective", "verb", "verb", "adjective", "number(in words)", "adverb", "verb", "adjective", "noun", "onemotepia"]:
             user_input = input(f"{prompt}: ")
             if prompt == "number":
                 while not is_valid_number(user_input):
