@@ -69,7 +69,7 @@ while playing == True:
                     user_input = input(f"{prompt}: ")
             storyC.append(user_input)
         print(f"Amid the dense, untamed wilderness, a determined {storyC[0]} named {storyC[1]} embarked on an extraordinary journey.")
-        print(f"{storyC[1]} had spent {storyC[14]} years chasing legends, but this time, the fabled treasure of Eldoria seemed within reach.")
+        print(f"{storyC[1]} had spent {storyC[9]} years chasing legends, but this time, the fabled treasure of Eldoria seemed within reach.")
         print(f"With a map in hand and a heart full of ambition, {storyC[1]} ventured deeper into the jungle's shadowy expanse.")
         print(f"Before long, {storyC[1]} crossed paths with a trusted ally, {storyC[2]}, a seasoned explorer with an unshakable spirit.")
         print(f"As they navigated the treacherous terrain, an abrupt {storyC[4]} pierced the air, making them freeze {storyC[5]}.")
