@@ -1,1 +1,6 @@
-
+ print(f"How to cook the most {storyD[0]} {storyD[1]}")
+        print(f"First gather your ingredients. You will need {storyD[2]} cups of {storyD[3]}")
+        print(f"You will aslo need a pinch of {storyD[4]}, 3 cups of {storyD[5]} {storyD[6]}, and {storyD[7]} teaspoons of {storyD[8]}")
+        print(f"Then {storyD[9]} all of your ingredients in a {storyD[10]} bowl.")
+        print(f"Then let it rise for {storyD[11]} minutes in a {storyD[12]} area.")
+        print(f"Lastly, cook it at {storyD[13]} degrees Farnecheit until {storyD[14]} brown")
