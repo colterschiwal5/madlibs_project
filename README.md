@@ -8,7 +8,7 @@ https://github.com/colterschiwal5/madlibs_project/blob/main/src/madLibs.py
 - Kai
 - Andrew
 - Sofia
-- Ava
+- Ava - coder and storywriter
 - Katelyn
 
 # Approach
