@@ -4,12 +4,12 @@ A mad libs terminal application where users can plug parts of speech into 4 diff
 https://github.com/colterschiwal5/madlibs_project/blob/main/src/madLibs.py
 
 # Contributers
-- Colter Schiwal
-- Kai Hale
-- Andrew Misco:)
-- Sofia Stahle
-- Ava Baskin
-- Katelyn Lin
+- Colter
+- Kai
+- Andrew
+- Sofia
+- Ava
+- Katelyn
 
 # Approach
 - We used a list for the words in each story 
