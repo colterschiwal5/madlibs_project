@@ -7,7 +7,7 @@ https://github.com/colterschiwal5/madlibs_project/blob/main/src/madLibs.py
 - Colter
 - Kai
 - Andrew
-- Sofia
+- Sofia - story writer and fixed logic errors with invalid inputs
 - Ava - coder and storywriter
 - Katelyn
 
