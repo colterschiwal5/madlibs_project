@@ -56,8 +56,8 @@ while playing == True:
         print(f"As he stepped up to the friends, the ball in front of him {storyB[11]} up and hit him in the nose.")
         print(f"Finally {storyB[0]} and {storyB[1]} won!")
     elif choice == 'c':
-        storyB = []
-        for prompt in ["name", "name", "adverb", "name", "verb", "adjective", "verb", "verb", "adjective", "number(in words)", "adverb", "verb", "adjective", "noun", "onemotepia"]:
+        storyC = []
+        for prompt in ["name", "name", "adverb", "name", "verb", "adjective", "verb", "verb", "adjective", "number(in words)", "adverb", "verb", "adjective", "noun", "onomatopoeia"]:
             user_input = input(f"{prompt}: ")
             if prompt == "number":
                 while not is_valid_number(user_input):
@@ -67,7 +67,7 @@ while playing == True:
                 while not is_valid_word(user_input):
                     print("Invalid input. Please enter a word with more than one letter.")
                     user_input = input(f"{prompt}: ")
-            storyB.append(user_input)
+            storyC.append(user_input)
         print(f"Amid the dense, untamed wilderness, a determined {storyC[0]} named {storyC[1]} embarked on an extraordinary journey.")
         print(f"{storyC[1]} had spent {storyC[14]} years chasing legends, but this time, the fabled treasure of Eldoria seemed within reach.")
         print(f"With a map in hand and a heart full of ambition, {storyC[1]} ventured deeper into the jungle's shadowy expanse.")
