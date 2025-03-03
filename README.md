@@ -1,5 +1,5 @@
 # Madlibs project
-A mad libs project for school
+A mad libs terminal application where users can plug parts of speech into 4 different stories.
 
 https://github.com/colterschiwal5/madlibs_project/blob/main/src/madLibs.py
 
