@@ -4,8 +4,8 @@ A mad libs terminal application where users can plug parts of speech into 4 diff
 https://github.com/colterschiwal5/madlibs_project/blob/main/src/madLibs.py
 
 # Contributers
-- Colter
-- Kai
+- Colter - tester
+- Kai - story writer and tester
 - Andrew
 - Sofia - story writer and fixed logic errors with invalid inputs
 - Ava - coder and storywriter
