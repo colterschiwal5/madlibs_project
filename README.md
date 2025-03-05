@@ -6,10 +6,10 @@ https://github.com/colterschiwal5/madlibs_project/blob/main/src/madLibs.py
 # Contributers
 - Colter - tester
 - Kai - story writer and tester
-- Andrew
-- Sofia - story writer and fixed logic errors with invalid inputs
+- Andrew - tester
+- Sofia - story writer and debug
 - Ava - coder and storywriter
-- Katelyn
+- Katelyn - coder
 
 # Approach
 - We used a list for the words in each story 
