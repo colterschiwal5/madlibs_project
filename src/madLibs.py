@@ -57,7 +57,7 @@ while playing == True:
         print(f"Finally {storyB[0]} and {storyB[1]} won!")
     elif choice == 'c':
         storyC = []
-        for prompt in ["name", "name", "adverb", "name", "verb", "adjective", "verb", "verb", "adjective", "number(in words)", "adverb", "verb", "adjective", "noun", "onomatopoeia"]:
+        for prompt in ["noun", "name", "past tense adverb", "name", "verb", "adjective", "verb", "verb", "adjective", "number(in words)", "adverb", "verb", "adjective", "noun", "onomatopoeia"]:
             user_input = input(f"{prompt}: ")
             if prompt == "number":
                 while not is_valid_number(user_input):
@@ -71,16 +71,16 @@ while playing == True:
         print(f"Amid the dense, untamed wilderness, a determined {storyC[0]} named {storyC[1]} embarked on an extraordinary journey.")
         print(f"{storyC[1]} had spent {storyC[9]} years chasing legends, but this time, the fabled treasure of Eldoria seemed within reach.")
         print(f"With a map in hand and a heart full of ambition, {storyC[1]} ventured deeper into the jungle's shadowy expanse.")
-        print(f"Before long, {storyC[1]} crossed paths with a trusted ally, {storyC[2]}, a seasoned explorer with an unshakable spirit.")
-        print(f"As they navigated the treacherous terrain, an abrupt {storyC[4]} pierced the air, making them freeze {storyC[5]}.")
+        print(f"Before long, {storyC[1]} crossed paths with a trusted ally, {storyC[3]}, a seasoned explorer with an unshakable spirit.")
+        print(f"As they navigated the treacherous terrain, an abrupt {storyC[14]} pierced the air, making them freeze {storyC[5]}.")
         print(f"Emerging from the mist, {storyC[3]}, the infamous treasure hunter, smirked arrogantly and attempted to {storyC[6]}.")
-        print(f"'You two will never reach the treasure before me, you {storyC[7]} fools,' {storyC[3]} taunted.")
-        print(f"But instead of faltering, {storyC[1]} {storyC[8]} in defiance while {storyC[2]} {storyC[9]}, unwilling to surrender to intimidation.")
+        print(f"'You two will never reach the treasure before me, you {storyC[8]} fools,' {storyC[3]} taunted.")
+        print(f"But instead of faltering, {storyC[1]} {storyC[8]} in defiance while {storyC[3]} {storyC[2]}, unwilling to surrender to intimidation.")
         print(f"Determined to gain the upper hand, they devised a {storyC[10]} strategy, studying their map under the flickering torchlight.")
-        print(f"For {storyC[11]} grueling hours, they plotted every detail, knowing they had only one chance to outwit {storyC[3]}.")
-        print(f"Finally, as dawn broke, they moved {storyC[12]} through the undergrowth, anticipation mounting.")
-        print(f"Just as {storyC[3]} reached for the treasure, the ground beneath him {storyC[13]}, sending him plunging into an ancient trap.")
-        print(f"With victory secured, {storyC[1]} and {storyC[2]} claimed the long-lost relic, proving that wit and resilience triumph over greed.")
+        print(f"For {storyC[9]} grueling hours, they plotted every detail, knowing they had only one chance to outwit {storyC[3]}.")
+        print(f"Finally, as dawn broke, they moved {storyC[2]} through the undergrowth, anticipation mounting.")
+        print(f"Just as {storyC[3]} reached for the treasure, the {storyC[13]} beneath him fell, sending him plunging into an ancient trap.")
+        print(f"With victory secured, {storyC[1]} and {storyC[3]} claimed the long-lost relic, proving that wit and resilience triumph over greed.")
     elif choice == 'd':
         storyD = []
         for prompt in ["adjective", "noun", "number", "noun", "noun", "adjective", "noun", "number", "noun", "verb", "adjective", "number", "adjective", "number", "color"]:
