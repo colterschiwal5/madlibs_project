@@ -10,7 +10,7 @@ def is_valid_number(num):
 playing = True
 print("Welcome to Mad Libs!")
 while playing == True:
-    choice = input("What story do you want? a, b, c, or d. You can also press q to quit.")
+    choice = input("What story do you want? a, b, c, or d. Press q to quit ")
     if choice == 'a':
         storyA = []
         for prompt in ["adjective", "noun", "verb", "full name", "verb", "adjective", "noun (plural)", "verb", "day of week", "animal (plural)", "sport", "school subject", "adjective", "material", "adjective"]:
