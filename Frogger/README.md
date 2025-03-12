@@ -13,4 +13,4 @@ A game where a user helps a frog cross the screen while avoiding cars and jumpin
 ## GUI mockups
 [graphics](https://github.com/colterschiwal5/python_group/tree/Frogger-or-TicTacToe/Frogger/images)
 ## Class logic
-[Class Diagram](https://github.com/colterschiwal5/python_group/blob/Frogger-or-TicTacToe/Frogger/images/FroggerClassDiagram.png)
+[Class Diagram](https://github.com/colterschiwal5/python_group/blob/Frogger-or-TicTacToe/Frogger/images/FroggerClassDiagram.png?raw=true)
