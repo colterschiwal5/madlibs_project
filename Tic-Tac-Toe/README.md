@@ -13,3 +13,4 @@ A game where the user can play against the computer or multi-player. Either the 
 ## GUI mockups
 [graphics](https://github.com/colterschiwal5/python_group/tree/Frogger-or-TicTacToe/Tic-Tac-Toe/Images)
 ## Classes
+[Class Diagram](https://github.com/colterschiwal5/python_group/blob/Frogger-or-TicTacToe/Tic-Tac-Toe/Images/Tic-Tac-Toe.png)
